@@ -1,0 +1,26 @@
+model_name: michelle_diet_imagenetmean__freeze11__plateaulr_0.1_0_0.0__AdamW_wdecay_1en4
+optimizer_lr: 0.0001
+optimizer_type: AdamW
+optimizer_wd: 0.0001
+scheduler_params:
+  factor: 0.1
+  patience: 0
+  threshold: 0.0
+scheduler_type: ReduceLROnPlateau
+unfreeze_layers:
+- blocks.11.norm1.weight
+- blocks.11.norm1.bias
+- blocks.11.attn.qkv.weight
+- blocks.11.attn.qkv.bias
+- blocks.11.attn.proj.weight
+- blocks.11.attn.proj.bias
+- blocks.11.norm2.weight
+- blocks.11.norm2.bias
+- blocks.11.mlp.fc1.weight
+- blocks.11.mlp.fc1.bias
+- blocks.11.mlp.fc2.weight
+- blocks.11.mlp.fc2.bias
+- norm.weight
+- norm.bias
+- head.weight
+- head.bias
