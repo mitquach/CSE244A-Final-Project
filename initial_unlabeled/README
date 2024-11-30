@@ -1,0 +1,10 @@
+Initial pass at incorporating unlabeled data using pseudo-labeling.  The unlabeled data is
+incorporated after the first few epochs have passed, so that the model has a high chance of
+generating good labels for the unlabeled data before we begin training on those predictions.
+The batch size is also set to 100 to offset the chance of a few bad labels really spoiling
+the model.  On top of that, the loss for unlabeled data is multiplied by a tiny fraction to
+reduce its impact (very early results showed that otherwise, model accuracy quickly fell off).
+
+Even so, this wasn't that successful.  The best-scoring model (by validation results) was found
+at epoch 5, after only a couple rounds of pseudo-label integration.  Everything after that was
+just wobbling at a slightly worse level.
