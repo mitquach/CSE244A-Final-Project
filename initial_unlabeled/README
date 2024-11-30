@@ -1,0 +1,8 @@
+Initial pass at incorporating unlabeled data.  Batch size of 100 on the unlabeled data, with
+an additional penalty factor on the derived loss to try to reduce any negative impact (very
+early results suggested pseudo-label prediction and use could tank the model's performance pretty hard).
+Unlabeled data was also only incorporated into the training after several epochs had passed, so that the
+prediction accuracy we we're building from would already be high.
+
+The results here don't seem that impressive.  After 20 epochs, the best model (according to the validation
+set) was achieved at epoch 5.
