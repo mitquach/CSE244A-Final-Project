@@ -1,0 +1,30 @@
+augment_mode: augmentD
+model_name: michelle_distilled_diet_imagenetmean_augmentD__freeze11__cosine_1en3_0.8__AdamW_wdecay_1en3
+model: deit_distilled
+optimizer_lr: 0.001
+optimizer_type: AdamW
+optimizer_wd: 0.0001
+scheduler_params:
+  T_0: 5
+  T_mult: 2
+  eta_min: 0.00001
+scheduler_type: CosineAnnealingWarmRestarts
+unfreeze_layers:
+- blocks.11.norm1.weight
+- blocks.11.norm1.bias
+- blocks.11.attn.qkv.weight
+- blocks.11.attn.qkv.bias
+- blocks.11.attn.proj.weight
+- blocks.11.attn.proj.bias
+- blocks.11.norm2.weight
+- blocks.11.norm2.bias
+- blocks.11.mlp.fc1.weight
+- blocks.11.mlp.fc1.bias
+- blocks.11.mlp.fc2.weight
+- blocks.11.mlp.fc2.bias
+- norm.weight
+- norm.bias
+- head.weight
+- head.bias
+- head_dist.weight
+- head_dist.bias
