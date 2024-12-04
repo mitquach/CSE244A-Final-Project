@@ -1,5 +1,5 @@
 augment_mode: augmentD
-model_name: michelle_distilled_diet_imagenetmean_augmentD__freeze11__cosine_1en3_0.8__AdamW_wdecay_1en3
+model_name: michelle_distilled_diet_imagenetmean_augmentD__freeze11__cosine_1en5_0.8__AdamW_wdecay_1en3
 model: deit_distilled
 optimizer_lr: 0.001
 optimizer_type: AdamW
