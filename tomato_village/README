@@ -1,0 +1,6 @@
+This is just a bit of code to incorporate a secondary training set for tomato leaves from
+https://github.com/mamta-joshi-gehlot/Tomato-Village.  In particular, we're interested in the
+variant-a set, which is a single-label multi-class set that has significant overlap with the
+categories we're trying to predict for the project.
+
+
