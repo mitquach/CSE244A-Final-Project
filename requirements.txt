@@ -1,0 +1,10 @@
+pandas>=2.2.2
+torchvision>=0.20.1
+pillow>=11.0.0
+pytorch>=2.5.1
+tqdm>=4.66.5
+platform>=4.3.6
+timm>=1.0.11
+matplotlib>=3.9.2
+yaml>=0.2.5
+numpy>=1.26.4
