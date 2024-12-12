@@ -1,0 +1,14 @@
+This is the core of the early experimentation with pseudo-labels, also mentioned in the deit3 directory.
+In short, once we had a model that was scoring quite well, we wanted to try to incorporate pseudo-labeling.
+The first experiment was just to use the model at each epoch first predict pseudolabels, then use them
+to train on - the idea being that small amounts of errors in the resulting labels likely would be
+irrelevant given the success of the rest of the labels.  That didn't work so well - models slowly
+lost accuracy over time instead of improving, and eventually completely lost it.
+
+A second approach was to predict static pseudo-labels for the unlabeled data using a high-performance
+trained model, and then use those to train a second model without re-analyzing the pseudo-labels.
+This worked much better, but didn't actually seem to improve our final performance at all, either
+in validation scores or on Kaggle.  My hypothesis here is that our model was mostly already quite
+successful except for certain hard-to-distinguish category pairs, like the difference between toy
+poodles and miniature poodles.  In those edge cases, the model was much less successful, and using
+those faulty pseudo-labels to try to improve performance was doomed from the start.

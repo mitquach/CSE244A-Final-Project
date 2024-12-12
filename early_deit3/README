@@ -1,0 +1,11 @@
+These are some early experiments from using the augmentation techniques used in the Deit III paper
+(a combination of gaussian blur, solarization, and greyscale image adjustment, along with a few
+other basic modifications) to expand the dataset.
+
+In deit3_augment, I also attempted to take advantage of the unlabeled data in an iterative way.
+After waiting a few generations for the overall accuracy to go over 90%, I began generating
+pseudo-labels for the unlabeled data and then training the model on it - effectively trying to pull
+myself up by my own bootstraps.  Unfortunately this wasn't very effective; the model tended to
+decohere instead and just reinforce its own mistakes before descending into chaos.  In later
+attempts, I switched to using a static set of pseudo-labels as generated from an earlier,
+high-performing trained model.

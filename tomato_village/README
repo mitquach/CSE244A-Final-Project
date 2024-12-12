@@ -3,4 +3,5 @@ https://github.com/mamta-joshi-gehlot/Tomato-Village.  In particular, we're inte
 variant-a set, which is a single-label multi-class set that has significant overlap with the
 categories we're trying to predict for the project.
 
-
+The tomato*.py files are attempts to incorporate the tomato data into our models in useful ways.
+Ultimately they didn't make much of a difference, and didn't seem to help at all.

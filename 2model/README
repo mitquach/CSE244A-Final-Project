@@ -1,0 +1,8 @@
+These are some experiments tied to splitting the leaf and dog data up, and training separate models
+for each of the two categories before recombining their predictions.  The approach is rather crude
+(I train two models, one on each dataset, but over the full list of output categories, then just
+try to average the predictions of those two models in different ways for the output).  Not too much
+work went into this because I didn't expect any surprises here; rather, I expected each model to
+suffer from having less training data.  One thing that did come out of this was some confirmation
+that it's easier to train models to high accuracy on leaves than on dogs.  That wasn't much of a
+surprise given the imbalance in the number of output categories, but it was nice to see confirmed.
