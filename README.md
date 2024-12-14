@@ -31,13 +31,16 @@ pip install -r requirements.txt
 ucsc-cse-244-a-2024-fall-final-project
     ├── models
     │   └── michelle_diet_imagenetmean_augment__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
+    │       ├── history.json
+    │       ├── checkpoint-best.pth
+    │       └── checkpoint.pth
     ├── test
     └── train
         ├── labeled
         └── unlabeled
     ├── FinalProject.ipynb
     ├── README.md
-    ├── michelle_diet_imagenetmean_augment__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
+    ├── michelle_diet_imagenetmean_augment__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4.yaml
     ├── requirements.txt
     └── test_submission.csv
 ```
