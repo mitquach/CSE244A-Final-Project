@@ -11,9 +11,20 @@ pip install -r requirements.txt
 ```
 
 ## How to Run
-- Clone or download the entire GitHub repository and open "FinalProject.ipynb"
-- Update the paths in the cell with a TODO. The 'data_prefix' path should be the parent directory of the train and test data. The 'model_prefix' path should be a subdirectory within the 'data_prefix' directory named 'models' which will contain a folder of all the checkpoint and history information for that specific model configuration. This should also be the parent of where the CSV files for the labels are too.
-- Run all cells in a linear fashion. Once cells complete, a CSV file titled "test_submission.csv" will be generated. This file will have the image name and its predicted labels in it. 
+# To reproduce the entire training procedure:
+1. Clone the above repository.
+2. Specify the path to the "ucsc-cse-244-a-2024-fall-final-project" data in the cell marked “#TODO”
+3. Set evaluation_mode = False in the same cell
+4. Run everything.
+5. A file named 'test_submission*.csv' will be produced, each time the notebook is run a new prediction will be produced with an incremented suffix number.
+
+# To reproduce the results of our pre-trained checkpoint:
+1. Clone the above repository.
+2. Download and extract the checkpoint zip file to the “models” directory within the repository.
+3. Specify the path to the "ucsc-cse-244-a-2024-fall-final-project" data in the cell marked “#TODO”
+4. Set evaluation_mode = True in the same cell
+5. Run everything.
+6. A file named 'test_submission*.csv' will be produced, each time the notebook is run a new prediction will be produced with an incremented suffix number.
 
 ## Example Directory Tree
 ```
