@@ -11,7 +11,9 @@ pip install -r requirements.txt
 ```
 
 ## How to Run
-Clone or download the entire GitHub repository and open "FinalProject.ipynb" Update the paths in the cell with a TODO. The 'data_prefix' path should be the parent directory of the train and test data. The 'model_prefix' path should be a subdirectory within the 'data_prefix' directory named 'models' which will contain a folder of all the checkpoint and history information for that specific model configuration. This should also be the parent of where the CSV files for the labels are too. Run all cells in a linear fashion. Once cells complete, a CSV file titled "test_submission.csv" will be generated. This file will have the image name and its predicted labels in it. 
+- Clone or download the entire GitHub repository and open "FinalProject.ipynb"
+- Update the paths in the cell with a TODO. The 'data_prefix' path should be the parent directory of the train and test data. The 'model_prefix' path should be a subdirectory within the 'data_prefix' directory named 'models' which will contain a folder of all the checkpoint and history information for that specific model configuration. This should also be the parent of where the CSV files for the labels are too.
+- Run all cells in a linear fashion. Once cells complete, a CSV file titled "test_submission.csv" will be generated. This file will have the image name and its predicted labels in it. 
 
 ## Example Directory Tree
 ```
