@@ -1,5 +1,5 @@
 # CSE244A-Final-Project
-This repository was made by Jonathan Casper, Daniel Sabo, and Michelle Quach for UCSC's CSE244A final project. It uses Meta's Data Efficient Image Transformer to classify dog and plant images provided from the Kaggle competition [here](https://www.kaggle.com/competitions/ucsc-cse-244-a-2024-fall-final-project/overview). 
+This repository was made by Jonathan Casper, Daniel Sabo, and Michelle Quach for UCSC's CSE244A final project. It uses Meta's [Data Efficient Image Transformer](https://github.com/facebookresearch/deit) to classify dog and plant images provided from the Kaggle competition [here](https://www.kaggle.com/competitions/ucsc-cse-244-a-2024-fall-final-project/overview). 
 
 ## Requirements 
 The dependencies for is project are specified by the provided `requirements.txt` file. Development was performed using python 3.11. Running the code via GPU is also highly recommended. 
