@@ -17,33 +17,14 @@ Clone or download the entire GitHub repository and open "FinalProject.ipynb" Upd
 ```
 ucsc-cse-244-a-2024-fall-final-project
     ├── models
-    │   ├── michelle_diet384_imagenetmean_augmentD__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
-    │   ├── michelle_diet_imagenetmean_augmentD__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
-    │   ├── michelle_distilled_diet_imagenetmean_augmentD__freeze11__cosine_1en5_0.8__AdamW_wdecay_1en3
-    │   ├── michelle_distilled_diet_imagenetmean_augmentD__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
-    │   ├── michelle_distilled_diet_imagenetmean_augment__freeze11__cosine_1en3_0.8__AdamW_wdecay_1en4
-    │   └── michelle_distilled_diet_imagenetmean_augment__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
+    │   └── michelle_diet_imagenetmean_augment__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
     ├── test
     └── train
         ├── labeled
         └── unlabeled
     ├── FinalProject.ipynb
-    ├── FinalProject_kfold.ipynb
     ├── README.md
-    ├── michelle_diet384_imagenetmean_augmentD__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4.yaml
-    ├── michelle_diet__freeze11__plateaulr_0.1_0_0.0__AdamW_wdecay_1en4.yaml
-    ├── michelle_diet__freeze11__plateaulr_0.1_0_0.0__wdecay_1en4.yaml
-    ├── michelle_diet__plateaulr_0.1_0_0.0.yaml
-    ├── michelle_diet__steplr_3_0.97.yaml
-    ├── michelle_diet_imagenetmean__freeze11__plateaulr_0.1_0_0.0__AdamW_wdecay_1en4.yaml
-    ├── michelle_diet_imagenetmean_augmentD__freeze10__explr_1en4_0.8__AdamW_wdecay_1en4.yaml
-    ├── michelle_diet_imagenetmean_augmentD__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4.yaml
-    ├── michelle_diet_imagenetmean_augmentD__freeze11__plateaulr_0.1_0_0.0__AdamW_wdecay_1en4.yaml
-    ├── michelle_diet_imagenetmean_augment__freeze11__cosine_1en4_0.8__AdamW_wdecay_1en4.yaml
-    ├── michelle_distilled_diet_imagenetmean_augmentD__freeze11__cosine_1en5_0.8__AdamW_wdecay_1en3.yaml
-    ├── michelle_distilled_diet_imagenetmean_augmentD__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4.yaml
-    ├── michelle_distilled_diet_imagenetmean_augment__freeze11__cosine_1en4_0.8__AdamW_wdecay_1en4.yaml
-    ├── michelle_distilled_diet_imagenetmean_augment__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4.yaml
+    ├── michelle_diet_imagenetmean_augment__freeze11__explr_1en4_0.8__AdamW_wdecay_1en4
     ├── requirements.txt
     └── test_submission.csv
 ```
