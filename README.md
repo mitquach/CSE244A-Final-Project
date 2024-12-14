@@ -11,14 +11,14 @@ pip install -r requirements.txt
 ```
 
 ## How to Run
-# To reproduce the entire training procedure:
+### To reproduce the entire training procedure:
 1. Clone the above repository.
 2. Specify the path to the "ucsc-cse-244-a-2024-fall-final-project" data in the cell marked “#TODO”
 3. Set evaluation_mode = False in the same cell
 4. Run everything.
 5. A file named 'test_submission*.csv' will be produced, each time the notebook is run a new prediction will be produced with an incremented suffix number.
 
-# To reproduce the results of our pre-trained checkpoint:
+### To reproduce the results of our pre-trained checkpoint:
 1. Clone the above repository.
 2. Download and extract the checkpoint zip file to the “models” directory within the repository.
 3. Specify the path to the "ucsc-cse-244-a-2024-fall-final-project" data in the cell marked “#TODO”
